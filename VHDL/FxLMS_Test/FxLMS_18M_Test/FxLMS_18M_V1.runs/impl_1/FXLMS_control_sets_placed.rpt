@@ -1,0 +1,82 @@
+Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2016.1 (win64) Build 1538259 Fri Apr  8 15:45:27 MDT 2016
+| Date         : Fri Nov 11 01:03:59 2016
+| Host         : DESKTOP-GFO7C5Q running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file FXLMS_control_sets_placed.rpt
+| Design       : FXLMS
+| Device       : xc7a200t
+------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    29 |
+| Unused register locations in slices containing registers |    97 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              39 |           28 |
+| No           | No                    | Yes                    |              17 |            5 |
+| No           | Yes                   | No                     |             151 |           54 |
+| Yes          | No                    | No                     |              18 |            7 |
+| Yes          | No                    | Yes                    |              71 |           21 |
+| Yes          | Yes                   | No                     |            1039 |          313 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++------------------------+------------------------------+-----------------------------------------+------------------+----------------+
+|      Clock Signal      |         Enable Signal        |             Set/Reset Signal            | Slice Load Count | Bel Load Count |
++------------------------+------------------------------+-----------------------------------------+------------------+----------------+
+| ~rise_clk_BUFG         | U4/counter[6]                | U4/counter[6]_i_1__4_n_0                |                1 |              3 |
+|  CLK_IBUF_BUFG         | Ux6/Inst_UART_TX_CTRL/E[0]   |                                         |                2 |              4 |
+| ~rise_clk_BUFG         | U2/counter[8]                | U11_18/SR[0]                            |                2 |              6 |
+| ~rise_clk_BUFG         | U4/counter[8]                | U11_18/SR[0]                            |                3 |              6 |
+| ~rise_clk_BUFG         | U7/counter[8]                | U11_18/SR[0]                            |                3 |              6 |
+| ~rise_clk_BUFG         | CE_Macc_filter_reg_n_0       | macc_bypass_2_reg_n_0                   |                2 |              6 |
+|  CLK_IBUF_BUFG         |                              |                                         |                5 |              7 |
+|  CLK_IBUF_BUFG         | Ux6/p_0_out                  |                                         |                2 |              7 |
+|  CLK_IBUF_BUFG         | Ux6/uartSend                 |                                         |                3 |              7 |
+| ~rise_clk_BUFG         | U3/counter[8]_i_1_n_0        | U3/clear                                |                2 |              9 |
+| ~rise_clk_BUFG         | U5/counter[8]_i_1__0_n_0     | U5/counter[8]_i_3__5_n_0                |                2 |              9 |
+| ~rise_clk_BUFG         | U6/counter[8]_i_1__1_n_0     | U6/counter[8]_i_3__6_n_0                |                4 |              9 |
+| ~rise_clk_BUFG         | U2/apuntador[8]_i_1_n_0      | U2/clear                                |                3 |              9 |
+| ~rise_clk_BUFG         | U4/apuntador[8]_i_1__0_n_0   | U4/clear                                |                2 |              9 |
+| ~rise_clk_BUFG         | U7/apuntador[8]_i_1__1_n_0   | U7/clear                                |                3 |              9 |
+|  CLK_IBUF_BUFG         |                              | Ux6/Inst_UART_TX_CTRL/bitTmr[0]_i_1_n_0 |                4 |             14 |
+|  rise_clk_BUFG         |                              |                                         |               13 |             15 |
+|  counter1e5_reset_BUFG |                              | Ux2/clear                               |                5 |             17 |
+|  counter1e5_reset_BUFG | Ux3/counter[0]_i_1_n_0       | Ux3/clear                               |                5 |             17 |
+| ~rise_clk_BUFG         |                              |                                         |               10 |             17 |
+| ~rise_clk_BUFG         |                              | U13/output[16]_i_1_n_0                  |                7 |             17 |
+|  CLK_IBUF_BUFG         |                              | prescaler[0]_i_1_n_0                    |                6 |             24 |
+|  CLK_IBUF_BUFG         |                              | prescaler_1khz[0]_i_1_n_0               |                6 |             24 |
+|  CLK_IBUF_BUFG         | Ux6/strIndex[0]_i_1_n_0      | Ux6/strIndex_comm                       |                8 |             31 |
+|  CLK_IBUF_BUFG         | Ux6/strIndex_comm[0]_i_2_n_0 | Ux6/strIndex_comm                       |                8 |             31 |
+|  CLK_IBUF_BUFG         | Ux6/Inst_UART_TX_CTRL/txBit  | Ux6/Inst_UART_TX_CTRL/uartRdy           |                9 |             32 |
+|  rise_clk_BUFG         |                              | U11_18/SR[0]                            |               31 |             72 |
+| ~rise_clk_BUFG         | CE_Macc_reg_n_0              | macc_bypass_1_reg_n_0                   |               34 |            102 |
+| ~rise_clk_BUFG         | CE_Mult_reg_n_0              | U11_18/SR[0]                            |              243 |            816 |
++------------------------+------------------------------+-----------------------------------------+------------------+----------------+
+
+

@@ -1,0 +1,9 @@
+En la carpeta .runs/impl_1 del proyecto de prueba se encuentra el archivo de programación
+.bin para cargar en la FPGA Artix 7 de la tarjeta de desarrollo Nexys Video. 
+De esta manera se usan datos almacenados en memoria ROM para
+realizar el procesamiento de 100 mil muestras. 
+Se debe conectar por puerto serial una uart a un computador mediante terminal virtual
+y configurar la captura de datos por achivo de texto, luego se oprime el boton 0 de ejecución
+el procesamiento. Dado que la frecuencia con la que se generan los datos de control es de $1KHz$
+se reciben 1000 muestras por segundo, así que para 100 mil muetras que se procesan se usa un total
+de 100 segundo para recibir todos los datos.

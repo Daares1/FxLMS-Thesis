@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="T_FXLMS_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="T_FXLMS" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="95000000000fs"></ZoomStartTime>
+      <ZoomEndTime time="125000000001fs"></ZoomEndTime>
+      <Cursor1Time time="125670000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="117" />
+   <wvobject fp_name="/T_FXLMS/SCLR" type="logic">
+      <obj_property name="ElementShortName">SCLR</obj_property>
+      <obj_property name="ObjectShortName">SCLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/NEWDATA" type="array">
+      <obj_property name="ElementShortName">NEWDATA[15:0]</obj_property>
+      <obj_property name="ObjectShortName">NEWDATA[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR1" type="array">
+      <obj_property name="ElementShortName">ERROR1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR1[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR2" type="array">
+      <obj_property name="ElementShortName">ERROR2[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR2[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR3" type="array">
+      <obj_property name="ElementShortName">ERROR3[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR3[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR4" type="array">
+      <obj_property name="ElementShortName">ERROR4[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR4[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR5" type="array">
+      <obj_property name="ElementShortName">ERROR5[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR5[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR6" type="array">
+      <obj_property name="ElementShortName">ERROR6[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR6[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR7" type="array">
+      <obj_property name="ElementShortName">ERROR7[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR7[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR8" type="array">
+      <obj_property name="ElementShortName">ERROR8[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR8[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR9" type="array">
+      <obj_property name="ElementShortName">ERROR9[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR9[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR10" type="array">
+      <obj_property name="ElementShortName">ERROR10[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR10[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR11" type="array">
+      <obj_property name="ElementShortName">ERROR11[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR11[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR12" type="array">
+      <obj_property name="ElementShortName">ERROR12[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR12[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR13" type="array">
+      <obj_property name="ElementShortName">ERROR13[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR13[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR14" type="array">
+      <obj_property name="ElementShortName">ERROR14[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR14[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR15" type="array">
+      <obj_property name="ElementShortName">ERROR15[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR15[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR16" type="array">
+      <obj_property name="ElementShortName">ERROR16[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR16[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR17" type="array">
+      <obj_property name="ElementShortName">ERROR17[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR17[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ERROR18" type="array">
+      <obj_property name="ElementShortName">ERROR18[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ERROR18[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/THRESHOLD1" type="logic">
+      <obj_property name="ElementShortName">THRESHOLD1</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/THRESHOLD2" type="logic">
+      <obj_property name="ElementShortName">THRESHOLD2</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/THRESHOLD3" type="logic">
+      <obj_property name="ElementShortName">THRESHOLD3</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD3</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/THRESHOLD4" type="logic">
+      <obj_property name="ElementShortName">THRESHOLD4</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/THRESHOLD5" type="logic">
+      <obj_property name="ElementShortName">THRESHOLD5</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD5</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/THRESHOLD6" type="logic">
+      <obj_property name="ElementShortName">THRESHOLD6</obj_property>
+      <obj_property name="ObjectShortName">THRESHOLD6</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/COUNTEROUT1" type="array">
+      <obj_property name="ElementShortName">COUNTEROUT1[8:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNTEROUT1[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/COUNTEROUT2" type="array">
+      <obj_property name="ElementShortName">COUNTEROUT2[8:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNTEROUT2[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_1_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_1_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_1_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_2_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_2_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_2_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_3_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_3_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_3_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_4_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_4_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_4_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_5_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_5_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_5_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_6_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_6_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_6_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_7_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_7_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_7_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_8_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_8_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_8_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_9_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_9_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_9_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_10_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_10_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_10_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_11_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_11_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_11_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_12_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_12_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_12_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_13_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_13_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_13_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_14_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_14_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_14_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_15_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_15_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_15_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_16_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_16_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_16_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_17_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_17_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_17_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM2_18_Q" type="array">
+      <obj_property name="ElementShortName">RAM2_18_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM2_18_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM1_Q" type="array">
+      <obj_property name="ElementShortName">ROM1_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM1_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM2_Q" type="array">
+      <obj_property name="ElementShortName">ROM2_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM2_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM3_Q" type="array">
+      <obj_property name="ElementShortName">ROM3_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM3_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM4_Q" type="array">
+      <obj_property name="ElementShortName">ROM4_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM4_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM5_Q" type="array">
+      <obj_property name="ElementShortName">ROM5_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM5_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM6_Q" type="array">
+      <obj_property name="ElementShortName">ROM6_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM6_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM7_Q" type="array">
+      <obj_property name="ElementShortName">ROM7_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM7_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM8_Q" type="array">
+      <obj_property name="ElementShortName">ROM8_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM8_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM9_Q" type="array">
+      <obj_property name="ElementShortName">ROM9_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM9_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM10_Q" type="array">
+      <obj_property name="ElementShortName">ROM10_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM10_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM11_Q" type="array">
+      <obj_property name="ElementShortName">ROM11_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM11_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM12_Q" type="array">
+      <obj_property name="ElementShortName">ROM12_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM12_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM13_Q" type="array">
+      <obj_property name="ElementShortName">ROM13_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM13_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM14_Q" type="array">
+      <obj_property name="ElementShortName">ROM14_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM14_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM15_Q" type="array">
+      <obj_property name="ElementShortName">ROM15_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM15_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM16_Q" type="array">
+      <obj_property name="ElementShortName">ROM16_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM16_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM17_Q" type="array">
+      <obj_property name="ElementShortName">ROM17_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM17_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ROM18_Q" type="array">
+      <obj_property name="ElementShortName">ROM18_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">ROM18_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC1_Q" type="array">
+      <obj_property name="ElementShortName">MACC1_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC1_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC2_Q" type="array">
+      <obj_property name="ElementShortName">MACC2_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC2_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC3_Q" type="array">
+      <obj_property name="ElementShortName">MACC3_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC3_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC4_Q" type="array">
+      <obj_property name="ElementShortName">MACC4_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC4_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC5_Q" type="array">
+      <obj_property name="ElementShortName">MACC5_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC5_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC6_Q" type="array">
+      <obj_property name="ElementShortName">MACC6_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC6_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC7_Q" type="array">
+      <obj_property name="ElementShortName">MACC7_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC7_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC8_Q" type="array">
+      <obj_property name="ElementShortName">MACC8_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC8_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC9_Q" type="array">
+      <obj_property name="ElementShortName">MACC9_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC9_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC10_Q" type="array">
+      <obj_property name="ElementShortName">MACC10_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC10_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC11_Q" type="array">
+      <obj_property name="ElementShortName">MACC11_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC11_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC12_Q" type="array">
+      <obj_property name="ElementShortName">MACC12_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC12_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC13_Q" type="array">
+      <obj_property name="ElementShortName">MACC13_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC13_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC14_Q" type="array">
+      <obj_property name="ElementShortName">MACC14_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC14_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC15_Q" type="array">
+      <obj_property name="ElementShortName">MACC15_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC15_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC16_Q" type="array">
+      <obj_property name="ElementShortName">MACC16_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC16_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC17_Q" type="array">
+      <obj_property name="ElementShortName">MACC17_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC17_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC18_Q" type="array">
+      <obj_property name="ElementShortName">MACC18_Q[43:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC18_Q[43:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT1_Q" type="array">
+      <obj_property name="ElementShortName">MULT1_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT1_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT2_Q" type="array">
+      <obj_property name="ElementShortName">MULT2_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT2_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT3_Q" type="array">
+      <obj_property name="ElementShortName">MULT3_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT3_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT4_Q" type="array">
+      <obj_property name="ElementShortName">MULT4_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT4_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT5_Q" type="array">
+      <obj_property name="ElementShortName">MULT5_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT5_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT6_Q" type="array">
+      <obj_property name="ElementShortName">MULT6_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT6_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT7_Q" type="array">
+      <obj_property name="ElementShortName">MULT7_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT7_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT8_Q" type="array">
+      <obj_property name="ElementShortName">MULT8_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT8_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT9_Q" type="array">
+      <obj_property name="ElementShortName">MULT9_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT9_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT10_Q" type="array">
+      <obj_property name="ElementShortName">MULT10_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT10_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT11_Q" type="array">
+      <obj_property name="ElementShortName">MULT11_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT11_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT12_Q" type="array">
+      <obj_property name="ElementShortName">MULT12_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT12_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT13_Q" type="array">
+      <obj_property name="ElementShortName">MULT13_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT13_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT14_Q" type="array">
+      <obj_property name="ElementShortName">MULT14_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT14_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT15_Q" type="array">
+      <obj_property name="ElementShortName">MULT15_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT15_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT16_Q" type="array">
+      <obj_property name="ElementShortName">MULT16_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT16_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT17_Q" type="array">
+      <obj_property name="ElementShortName">MULT17_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT17_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MULT18_Q" type="array">
+      <obj_property name="ElementShortName">MULT18_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MULT18_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ADDER_Q" type="array">
+      <obj_property name="ElementShortName">ADDER_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDER_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/DIV_Q" type="array">
+      <obj_property name="ElementShortName">DIV_Q[16:0]</obj_property>
+      <obj_property name="ObjectShortName">DIV_Q[16:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/ADDSUB_Q" type="array">
+      <obj_property name="ElementShortName">ADDSUB_Q[24:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDSUB_Q[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM31_PB_Q" type="array">
+      <obj_property name="ElementShortName">RAM31_PB_Q[24:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM31_PB_Q[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM31_PA_Q" type="array">
+      <obj_property name="ElementShortName">RAM31_PA_Q[24:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM31_PA_Q[24:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/RAM1_Q" type="array">
+      <obj_property name="ElementShortName">RAM1_Q[15:0]</obj_property>
+      <obj_property name="ObjectShortName">RAM1_Q[15:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC_FILTER_Q" type="array">
+      <obj_property name="ElementShortName">MACC_FILTER_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC_FILTER_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/COUNTEROUT3" type="array">
+      <obj_property name="ElementShortName">COUNTEROUT3[8:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNTEROUT3[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/COUNTEROUT4" type="array">
+      <obj_property name="ElementShortName">COUNTEROUT4[8:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNTEROUT4[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/COUNTEROUT5" type="array">
+      <obj_property name="ElementShortName">COUNTEROUT5[8:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNTEROUT5[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/COUNTEROUT6" type="array">
+      <obj_property name="ElementShortName">COUNTEROUT6[8:0]</obj_property>
+      <obj_property name="ObjectShortName">COUNTEROUT6[8:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/STATE_O" type="array">
+      <obj_property name="ElementShortName">STATE_O[3:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_O[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/CLK_1KHZ" type="logic">
+      <obj_property name="ElementShortName">CLK_1KHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_1KHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/BYPASS1" type="logic">
+      <obj_property name="ElementShortName">BYPASS1</obj_property>
+      <obj_property name="ObjectShortName">BYPASS1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/BYPASS2" type="logic">
+      <obj_property name="ElementShortName">BYPASS2</obj_property>
+      <obj_property name="ObjectShortName">BYPASS2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/CLK_period" type="other">
+      <obj_property name="ElementShortName">CLK_period</obj_property>
+      <obj_property name="ObjectShortName">CLK_period</obj_property>
+   </wvobject>
+</wave_config>

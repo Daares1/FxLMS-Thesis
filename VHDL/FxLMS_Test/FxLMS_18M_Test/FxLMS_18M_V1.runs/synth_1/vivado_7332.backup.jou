@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Thu Nov 10 23:33:16 2016
+# Process ID: 7332
+# Current directory: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.runs/synth_1
+# Command line: vivado.exe -log FXLMS.vds -mode batch -messageDb vivado.pb -notrace -source FXLMS.tcl
+# Log file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.runs/synth_1/FXLMS.vds
+# Journal file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FXLMS.tcl -notrace

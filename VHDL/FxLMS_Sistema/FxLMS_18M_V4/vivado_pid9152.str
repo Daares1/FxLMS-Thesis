@@ -1,0 +1,653 @@
+/*
+
+Vivado v2016.1 (64-bit)
+SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+Process ID: 9152
+
+Current time: 	11/7/16 1:51:25 PM COT
+Time zone: 	Colombia Time (America/Bogota)
+
+OS: Windows 10
+Version: 10.0
+Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Default font: family=Tahoma,name=Tahoma,style=plain,size=11
+
+Java version: 	1.8.0_66 64-bit
+Java home: 	C:/Xilinx/Vivado/2016.1/tps/win64/jre
+
+User name: 	david
+User home directory: C:/Users/david.DESKTOP-GFO7C5Q
+User working directory: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2
+User country: 	CO
+User language: 	es
+User locale: 	es_CO
+
+RDI Base root directory: C:/Xilinx/Vivado
+RDI Data directory: C:/Xilinx/Vivado/2016.1/data
+RDI Bin directory: C:/Xilinx/Vivado/2016.1/bin
+
+Vivado preferences path: C:/Users/david.DESKTOP-GFO7C5Q/AppData/Roaming/Xilinx/Vivado/2016.1/vivado.ini
+Vivado layouts directory: C:/Users/david.DESKTOP-GFO7C5Q/AppData/Roaming/Xilinx/Vivado/2016.1/layouts
+
+GUI allocated memory:	191 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 390 MB
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 16 MB (+14418kb) [00:00:17]
+// [Engine Memory]: 315 MB (+178956kb) [00:00:17]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\david.DESKTOP-GFO7C5Q\Documents\FxLMS_18M_V2\FxLMS_18M_V1.xpr. Version: Vivado v2016.1 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// [GUI Memory]: 47 MB (+31696kb) [00:00:41]
+// [Engine Memory]: 381 MB (+52506kb) [00:00:41]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 420 MB. GUI used memory: 28 MB. Current time: 11/7/16 1:51:28 PM COT
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// [Engine Memory]: 425 MB (+25989kb) [00:00:46]
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 494 MB (+50145kb) [00:01:01]
+// [GUI Memory]: 51 MB (+1401kb) [00:01:07]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: open_project C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 32 MB. Current time: 11/7/16 1:51:52 PM COT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 55 MB (+1186kb) [00:01:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [GUI Memory]: 57 MB (+124kb) [00:01:10]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: FxLMS_18M_V1; location: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2; part: xc7a200tsbg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:29 . Memory (MB): peak = 750.098 ; gain = 115.844 
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 65 MB (+4882kb) [00:01:18]
+// [Engine Memory]: 524 MB (+5518kb) [00:01:18]
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 32 MB. Current time: 11/7/16 2:21:53 PM COT
+// [GUI Memory]: 69 MB (+259kb) [00:37:42]
+// PAPropertyPanels.initPanels (FXLMS.vhd) elapsed time: 0.5s
+// Elapsed time: 2772 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FXLMS - Behavioral (FXLMS.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+// [GUI Memory]: 72 MB (+350kb) [00:47:23]
+// [GUI Memory]: 76 MB (+69kb) [00:48:20]
+// Elapsed time: 266 seconds
+selectCodeEditor("FXLMS.vhd", 54, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 54, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 15 seconds
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 227, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 365, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 83 MB (+3233kb) [00:52:14]
+// Elapsed time: 22 seconds
+selectCodeEditor("FXLMS.vhd", 0, 93); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 142, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 0, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 14, 57); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 93 MB (+6302kb) [00:53:04]
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4/FxLMS_V4.xpr"); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Opening Vivado Project: C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4/FxLMS_V4.xpr. Version: Vivado v2016.1 
+// bL:g (cv:JFrame):  Open Project : addNotify
+// Elapsed time: 17 seconds
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: MSGMGR_MOVEMSG
+// Tcl Message: open_project {C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4/FxLMS_V4.xpr} 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4' 
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 106 MB (+8752kb) [00:53:49]
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 544 MB. GUI used memory: 44 MB. Current time: 11/7/16 2:44:35 PM COT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 556 MB (+6592kb) [00:53:52]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: FxLMS_V4; location: C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4; part: xc7a200tsbg484-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 789.617 ; gain = 20.598 
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 25 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (FILTERSPATH.vhd) elapsed time: 0.4s
+// Elapsed time: 54 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FXLMS_V1 - Behavioral (FILTERSPATH.vhd)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FXLMS_V1 - Behavioral (FILTERSPATH.vhd), Ux1 - ROM_X (ROM_X.xci)]", 2, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// Elapsed time: 74 seconds
+selectCodeEditor("FILTERSPATH.vhd", 239, 108); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FILTERSPATH.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 363, 109); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 366, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 265, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 1, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FILTERSPATH.vhd", 375, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FILTERSPATH.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 274, 132); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 146, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 339, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 264, 121); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 364, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 340, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 287, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("FXLMS.vhd", 233, 140); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 337, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 13 seconds
+selectCodeEditor("FXLMS.vhd", 395, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 32 seconds
+selectCodeEditor("FXLMS.vhd", 15, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 167, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("FXLMS.vhd", 118, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FXLMS.vhd", 153, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 152, 38); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 153, 26); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 154, 72); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 155, 212); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 155, 40); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 153, 125); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 154, 225); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 154, 56); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 153, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 152, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 155, 8); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 151, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 154, 90); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 155, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 153, 3); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 144, 192); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 146, 143); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 148, 90); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 202, 107); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 203, 233); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 230, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 230, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 229, 110); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 231, 226); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 204, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 201, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 205, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 203, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 227, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 231, 210, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("FXLMS.vhd", 229, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 232, 213); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 224, 243); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 223, 214); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 226, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 224, 197); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 225, 180); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 222, 163); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 22 seconds
+selectCodeEditor("FILTERSPATH.vhd", 142, 45); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("FILTERSPATH.vhd", 237, 119); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FILTERSPATH.vhd", 432, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FILTERSPATH.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 415, 219); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FILTERSPATH.vhd", 135, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FILTERSPATH.vhd", 143, 162); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FILTERSPATH.vhd", 143, 171); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FILTERSPATH.vhd", 139, 165); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FILTERSPATH.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 160, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 156, 206); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 154, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 344, 210); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 306, 198); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 226, 156); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 1, 193); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 153, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FXLMS.vhd", 161, 75); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 163, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 160, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 292, 178); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 241, 173); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FXLMS.vhd", 320, 104); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 222, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 259, 62); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 264, 63); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 201, 230); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 57 seconds
+selectCodeEditor("FILTERSPATH.vhd", 162, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FILTERSPATH.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 169, 176); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FILTERSPATH.vhd", 113, 95); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("FXLMS.vhd", 111, 23); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 299, 175); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 300, 247); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 6, 208); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 355, 263); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 156, 123); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 187, 142); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 184, 59); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 154, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 188, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 281, 211); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 163, 177); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 304, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 263, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 256, 161); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 286, 262); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey(null, null, 'z');
+selectCodeEditor("FXLMS.vhd", 294, 171); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 287, 159); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FILTERSPATH.vhd", 78, 58); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FILTERSPATH.vhd", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 291, 76); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FXLMS.vhd", 235, 234); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 279, 227); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 285, 226); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 272, 229); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("FXLMS.vhd", 292, 158); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 184, 144); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 287, 217); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 308, 201); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectCodeEditor("FXLMS.vhd", 311, 215); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FXLMS.vhd", 214, 114); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 212, 111); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 21 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: current_project FxLMS_18M_V1 
+selectButton(PAResourceItoN.MainToolbarMgr_OPEN, (String) null); // at:ax (CommandBar:DockableBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainToolbarMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 10 seconds
+setFileChooser("C:/Users/david.DESKTOP-GFO7C5Q/Documents/CIC_MICRO_FPGA_V6/CIC_MICRO_FPGA_V6.srcs/constrs_1/new/Nexys_Video.xdc");
+// 'e' command handler elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Project Manager, Add Sources]", 2, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// b:g (cv:JFrame): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, "Add or create constraints"); // a:JRadioButton (JPanel:JComponent, b:g)
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, "Create File"); // a:JButton (F:JPanel, b:g)
+// Tcl Command: 'file mkdir C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1'
+// F:x (cv:JFrame): Create Constraints File: addNotify
+// Tcl Message: file mkdir C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1 
+setText(PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, "NexysVideo"); // ao:JTextField (JPanel:JComponent, F:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, F:x)
+dismissDialog("Create Constraints File"); // F:x (cv:JFrame)
+// Tcl Command: 'file mkdir C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new'
+selectButton("FINISH", "Finish"); // JButton:AbstractButton (ButtonPanel:JPanel, b:g)
+// 'g' command handler elapsed time: 16 seconds
+// Tcl Message: file mkdir C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new 
+dismissDialog("Add Sources"); // b:g (cv:JFrame)
+selectCodeEditor("Nexys_Video.xdc", 274, 43); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 113 MB (+1295kb) [01:07:28]
+// Tcl Message: close [ open C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc w ] 
+// b:g (cv:JFrame): Add Sources: addNotify
+// TclEventType: FILE_SET_CHANGE
+// bL:g (b:g):  Add Constraint  : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc 
+dismissDialog("Add Constraint"); // bL:g (b:g)
+selectCodeEditor("Nexys_Video.xdc", 274, 43); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "Nexys_Video.xdc", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 94); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, NexysVideo.xdc]", 96, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, NexysVideo.xdc]", 96, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "NexysVideo.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 17 seconds
+selectCodeEditor("NexysVideo.xdc", 1, 195); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 1, 181); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 520, 89); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 520, 89, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "NexysVideo.xdc", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+floatFrame(PAResourceOtoP.PAViews_CODE, "FXLMS.vhd"); // ao:DockableFrame (FrameContainer:JideTabbedPane, cv:JFrame)
+// PAResourceOtoP.PAViews_CODE: Code: float view
+// Elapsed time: 15 seconds
+selectCodeEditor("NexysVideo.xdc", 537, 160); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 9, 165); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 19 seconds
+selectCodeEditor("NexysVideo.xdc", 514, 248); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 514, 248, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+// Elapsed time: 42 seconds
+selectCodeEditor("NexysVideo.xdc", 0, 133); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("FXLMS.vhd", 86, 189); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("FXLMS.vhd", 86, 189, false, false, false, false, true); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame) - Double Click
+typeControlKey((HResource) null, "FXLMS.vhd", 'c'); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("NexysVideo.xdc", 538, 73); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 538, 73, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "NexysVideo.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 7, 74); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 588, 75); // bH:N (JPanel:JComponent, cv:JFrame)
+typeControlKey((HResource) null, "NexysVideo.xdc", 'c'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 533, 99); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 533, 99, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "NexysVideo.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 543, 112); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 543, 112, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "NexysVideo.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 542, 129); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 542, 129, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "NexysVideo.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 580, 93); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 579, 106); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 579, 128); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 535, 146); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 535, 146, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+typeControlKey((HResource) null, "NexysVideo.xdc", 'v'); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 591, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 4, 145); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 17, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bL:g (cv:JFrame):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov 07 15:01:23 2016] Launched synth_1... Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/synth_1/runme.log 
+// 'm' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bL:g (cv:JFrame)
+// [GUI Memory]: 119 MB (+153kb) [01:22:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 51 MB. Current time: 11/7/16 3:14:37 PM COT
+// Elapsed time: 988 seconds
+closeMainWindow("FxLMS_V4 - [C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4/FxLMS_V4.xpr] - Vivado 2016.1"); // cv:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// G:be (cv:JFrame): Close Project: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // G:be (cv:JFrame)
+// Tcl Message: current_project FxLMS_V4 
+// TclEventType: PROJECT_CLOSE
+// 'b' command handler elapsed time: 13 seconds
+// Tcl Message: close_project 
+// Elapsed time: 11 seconds
+dismissDialog("Close Project"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 44 MB. Current time: 11/7/16 3:18:07 PM COT
+// Tcl Message: close_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 853.668 ; gain = 0.000 
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 42 MB. Current time: 11/7/16 3:48:08 PM COT
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Synthesis Completed: addNotify
+// Elapsed time: 1879 seconds
+dismissDialog("Synthesis Completed"); // ap:G (cv:JFrame)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // FrameContainer:JideTabbedPane (ContainerContainer:JideSplitPane, cv:JFrame)
+selectCheckBox(PAResourceItoN.MsgView_INFORMATION_MESSAGES, (String) null, false); // h:JCheckBox (JPanel:JComponent, cv:JFrame): FALSE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Vivado 12-584] No ports matched 'UART_TX'. [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc:153]. ]", 6, false); // al:k (JViewport:JComponent, cv:JFrame)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\david.DESKTOP-GFO7C5Q\Documents\FxLMS_18M_V2\FxLMS_18M_V1.srcs\constrs_1\new\NexysVideo.xdc;-;;-;16;-;line;-;153;-;;-;16;-;"); // al:k (JViewport:JComponent, cv:JFrame)
+selectCodeEditor("NexysVideo.xdc", 568, 179); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 17 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov 07 15:50:13 2016] Launched synth_1... Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/synth_1/runme.log [Mon Nov 07 15:50:13 2016] Launched impl_1... Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 40 MB. Current time: 11/7/16 4:18:10 PM COT
+// TclEventType: RUN_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 38 MB. Current time: 11/7/16 4:48:13 PM COT
+// Elapsed time: 4385 seconds
+selectCodeEditor("NexysVideo.xdc", 410, 73); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 16 seconds
+selectCodeEditor("FXLMS.vhd", 280, 438); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectButton(PAResourceQtoS.StateMonitor_CANCEL, "Cancel"); // a:JButton (r:JPanel, cv:JFrame)
+// be:g (cv:JFrame): Cancel Implementation: addNotify
+selectButton(PAResourceQtoS.StateMonitor_RESET_STEP, "Reset Step"); // a:JButton (JPanel:JComponent, be:g)
+// bL:g (cv:JFrame):  Reset to Previous Step : addNotify
+dismissDialog("Cancel Implementation"); // be:g (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Reset to Previous Step"); // bL:g (cv:JFrame)
+selectCodeEditor("FXLMS.vhd", 282, 426); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("FXLMS.vhd", 310, 432); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 14 seconds
+selectCodeEditor("FXLMS.vhd", 155, 449); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, FrameFloatingContainer:ResizableFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov 07 17:04:32 2016] Launched synth_1... Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/synth_1/runme.log [Mon Nov 07 17:04:32 2016] Launched impl_1... Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 38 MB. Current time: 11/7/16 5:18:15 PM COT
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 38 MB. Current time: 11/7/16 5:48:17 PM COT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 3821 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+// Elapsed time: 217 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FXLMS - Behavioral (FXLMS.vhd), U13 - DIV48BITS - Behavioral (DIV48BITS.vhd)]", 88, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FXLMS - Behavioral (FXLMS.vhd), Ux6 - UART_SEND_48BITS - Behavioral (UART_SEND_48BITS.vhd)]", 7, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FXLMS - Behavioral (FXLMS.vhd), Ux6 - UART_SEND_48BITS - Behavioral (UART_SEND_48BITS.vhd)]", 7, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// Elapsed time: 311 seconds
+selectCodeEditor("FXLMS.vhd", 99, 532); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectButton(RDIResourceCommand.RDICommands_LINE_COMMENT, (String) null); // y:JideButton (CommandBar:DockableBar, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("FXLMS.vhd", 283, 412); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("FXLMS.vhd", 294, 418); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("FXLMS.vhd", 294, 419); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 41 MB. Current time: 11/7/16 6:18:20 PM COT
+// Elapsed time: 155 seconds
+selectCodeEditor("FXLMS.vhd", 124, 526); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("FXLMS.vhd", 113, 532); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 18 seconds
+selectCodeEditor("FXLMS.vhd", 94, 533); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "FXLMS.vhd", 'c'); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("FXLMS.vhd", 98, 530); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+typeControlKey((HResource) null, "FXLMS.vhd", 'v'); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectCodeEditor("FXLMS.vhd", 98, 504); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 10 seconds
+selectCodeEditor("FXLMS.vhd", 101, 569); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+// Elapsed time: 49 seconds
+selectCodeEditor("FXLMS.vhd", 110, 572); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // y:JideButton (CommandBar:DockableBar, FrameFloatingContainer:ResizableFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, FrameFloatingContainer:ResizableFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 16 seconds
+selectCodeEditor("FXLMS.vhd", 0, 298); // bH:N (JPanel:JComponent, FrameFloatingContainer:ResizableFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, FrameFloatingContainer:ResizableFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 25, false); // x:Y (w:G, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// G:be (cv:JFrame): Synthesis is Out-of-date: addNotify
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Resetting Runs : addNotify
+dismissDialog("Synthesis is Out-of-date"); // G:be (cv:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Resetting Runs"); // bL:g (cv:JFrame)
+// bL:g (cv:JFrame):  Generate Bitstream : addNotify
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 2 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Nov 07 18:22:09 2016] Launched synth_1... Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/synth_1/runme.log [Mon Nov 07 18:22:09 2016] Launched impl_1... Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/impl_1/runme.log 
+dismissDialog("Generate Bitstream"); // bL:g (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 40 MB. Current time: 11/7/16 6:48:22 PM COT
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 41 MB. Current time: 11/7/16 7:18:24 PM COT
+// TclEventType: RUN_COMPLETED
+// ap:G (cv:JFrame): Bitstream Generation Completed: addNotify
+// Elapsed time: 4867 seconds
+dismissDialog("Bitstream Generation Completed"); // ap:G (cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 573 MB. GUI used memory: 42 MB. Current time: 11/7/16 7:48:27 PM COT
+// Elapsed time: 779 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORT, "Report"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_FILE, "Open Recent File"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenu(PAResourceItoN.MainMenuMgr_OPEN_RECENT_PROJECT, "Open Recent Project"); // ab:JMenu (JPopupMenu:JComponent, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New Project..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// h:g (cv:JFrame): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // r:a (ap:JPanel, h:g)
+// Elapsed time: 10 seconds
+setFolderChooser("C:/Users/david.DESKTOP-GFO7C5Q/Documents");
+// Elapsed time: 12 seconds
+selectButton("CANCEL", "Cancel"); // JButton:AbstractButton (ButtonPanel:JPanel, h:g)
+// 'g' command handler elapsed time: 31 seconds
+dismissDialog("New Project"); // h:g (cv:JFrame)

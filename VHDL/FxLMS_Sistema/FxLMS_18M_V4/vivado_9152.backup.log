@@ -1,0 +1,69 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Nov 07 13:50:06 2016
+# Process ID: 9152
+# Current directory: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9088 C:\Users\david.DESKTOP-GFO7C5Q\Documents\FxLMS_18M_V2\FxLMS_18M_V1.xpr
+# Log file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/vivado.log
+# Journal file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V1' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+open_project: Time (s): cpu = 00:00:31 ; elapsed = 00:00:29 . Memory (MB): peak = 750.098 ; gain = 115.844
+update_compile_order -fileset sources_1
+open_project {C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4/FxLMS_V4.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4'
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+open_project: Time (s): cpu = 00:00:28 ; elapsed = 00:00:25 . Memory (MB): peak = 789.617 ; gain = 20.598
+update_compile_order -fileset sources_1
+current_project FxLMS_18M_V1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1
+file mkdir C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc
+close [ open C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc w ]
+add_files -fileset constrs_1 C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-1061] Parsing VHDL file "C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd" into library xil_defaultlib [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:1]
+[Mon Nov 07 15:01:23 2016] Launched synth_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/synth_1/runme.log
+current_project FxLMS_V4
+close_project
+close_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 853.668 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Nov 07 15:50:13 2016] Launched synth_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/synth_1/runme.log
+[Mon Nov 07 15:50:13 2016] Launched impl_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Nov 07 17:04:32 2016] Launched synth_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/synth_1/runme.log
+[Mon Nov 07 17:04:32 2016] Launched impl_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Mon Nov 07 18:22:09 2016] Launched synth_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/synth_1/runme.log
+[Mon Nov 07 18:22:09 2016] Launched impl_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.runs/impl_1/runme.log
+exit

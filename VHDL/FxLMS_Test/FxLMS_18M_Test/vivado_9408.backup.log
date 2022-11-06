@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed Nov 09 17:56:43 2016
+# Process ID: 9408
+# Current directory: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10020 C:\Users\david.DESKTOP-GFO7C5Q\Documents\FxLMS_18M_V3\FxLMS_18M_V1.xpr
+# Log file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/vivado.log
+# Journal file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+open_project: Time (s): cpu = 00:00:37 ; elapsed = 00:00:23 . Memory (MB): peak = 795.363 ; gain = 152.871
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Nov 09 18:01:06 2016] Launched synth_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.runs/synth_1/runme.log
+[Wed Nov 09 18:01:06 2016] Launched impl_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Wed Nov 09 18:23:36 2016] Launched synth_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.runs/synth_1/runme.log
+[Wed Nov 09 18:23:36 2016] Launched impl_1...
+Run output will be captured here: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 09 19:59:55 2016...

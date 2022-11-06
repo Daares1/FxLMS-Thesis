@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Nov 07 19:58:35 2016
+# Process ID: 6340
+# Current directory: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11304 C:\Users\david.DESKTOP-GFO7C5Q\Documents\FxLMS_18M_V3\FxLMS_18M_V1.xpr
+# Log file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/vivado.log
+# Journal file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/FxLMS_18M_V1.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+remove_files -fileset sim_1 C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V3/T_FXLMS_behav.wcfg
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+launch_simulation -noclean_dir
+launch_simulation -noclean_dir
+launch_simulation -noclean_dir
+source T_FXLMS.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+close_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1

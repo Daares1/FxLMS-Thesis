@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Tue Nov 15 10:49:15 2016
+# Process ID: 4328
+# Current directory: C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/FxLMS_18M_V4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10468 C:\Users\david.DESKTOP-GFO7C5Q\Dropbox\TestBed David Arevalo\Campo Sonoro\FXLMS\VHDL\Pruebas FPGA\FxLMS_18M_V4\FxLMS_18M_V1.xpr
+# Log file: C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/FxLMS_18M_V4/vivado.log
+# Journal file: C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/FxLMS_18M_V4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/FxLMS_18M_V4/FxLMS_18M_V1.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/FxLMS_18M_V4'
+INFO: [Project 1-313] Project file moved from 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.1/data/ip'.
+open_project: Time (s): cpu = 00:00:40 ; elapsed = 00:00:22 . Memory (MB): peak = 808.086 ; gain = 160.156
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 15 10:51:37 2016...

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="T_FXLMS_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="T_FXLMS" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1500000000001fs"></ZoomEndTime>
+      <Cursor1Time time="2499995000000fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/T_FXLMS/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/SCLR" type="logic">
+      <obj_property name="ElementShortName">SCLR</obj_property>
+      <obj_property name="ObjectShortName">SCLR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/BTN" type="logic">
+      <obj_property name="ElementShortName">BTN</obj_property>
+      <obj_property name="ObjectShortName">BTN</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/MACC_FILTER_Q" type="array">
+      <obj_property name="ElementShortName">MACC_FILTER_Q[47:0]</obj_property>
+      <obj_property name="ObjectShortName">MACC_FILTER_Q[47:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/STATE_O" type="array">
+      <obj_property name="ElementShortName">STATE_O[4:0]</obj_property>
+      <obj_property name="ObjectShortName">STATE_O[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/CLK_1KHZ" type="logic">
+      <obj_property name="ElementShortName">CLK_1KHZ</obj_property>
+      <obj_property name="ObjectShortName">CLK_1KHZ</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/UART_TXD" type="logic">
+      <obj_property name="ElementShortName">UART_TXD</obj_property>
+      <obj_property name="ObjectShortName">UART_TXD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/T_FXLMS/CLK_period" type="other">
+      <obj_property name="ElementShortName">CLK_period</obj_property>
+      <obj_property name="ObjectShortName">CLK_period</obj_property>
+   </wvobject>
+</wave_config>

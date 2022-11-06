@@ -1,0 +1,725 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Wed Nov 09 22:14:08 2016
+# Process ID: 11420
+# Current directory: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.runs/synth_1
+# Command line: vivado.exe -log FXLMS.vds -mode batch -messageDb vivado.pb -notrace -source FXLMS.tcl
+# Log file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.runs/synth_1/FXLMS.vds
+# Journal file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source FXLMS.tcl -notrace
+Command: synth_design -top FXLMS -part xc7a200tsbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 4944 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:44 ; elapsed = 00:00:54 . Memory (MB): peak = 310.488 ; gain = 104.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'FXLMS' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:41]
+INFO: [Synth 8-3491] module 'RAM_16X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_16X400_WF/synth/RAM_16X400_WF.vhd:56' bound to instance 'U1' of component 'RAM_16X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:387]
+INFO: [Synth 8-638] synthesizing module 'RAM_16X400_WF' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_16X400_WF/synth/RAM_16X400_WF.vhd:68]
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM1MIN/blk_mem_gen_v8_3_2/hdl/blk_mem_gen_v8_3.vhd:71' bound to instance 'U0' of component 'blk_mem_gen_v8_3_2' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_16X400_WF/synth/RAM_16X400_WF.vhd:231]
+INFO: [Synth 8-256] done synthesizing module 'RAM_16X400_WF' (9#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_16X400_WF/synth/RAM_16X400_WF.vhd:68]
+INFO: [Synth 8-3491] module 'COUNTER_ADJS' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER_ADJS.vhd:34' bound to instance 'U2' of component 'COUNTER_ADJS' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:389]
+INFO: [Synth 8-638] synthesizing module 'COUNTER_ADJS' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER_ADJS.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'COUNTER_ADJS' (10#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER_ADJS.vhd:44]
+INFO: [Synth 8-3491] module 'COUNTER400' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER400.vhd:33' bound to instance 'U3' of component 'COUNTER400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:390]
+INFO: [Synth 8-638] synthesizing module 'COUNTER400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER400.vhd:42]
+INFO: [Synth 8-256] done synthesizing module 'COUNTER400' (11#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER400.vhd:42]
+INFO: [Synth 8-3491] module 'COUNTER_ADJS' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER_ADJS.vhd:34' bound to instance 'U4' of component 'COUNTER_ADJS' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:391]
+INFO: [Synth 8-3491] module 'COUNTER400' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER400.vhd:33' bound to instance 'U5' of component 'COUNTER400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:392]
+INFO: [Synth 8-3491] module 'COUNTER400' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER400.vhd:33' bound to instance 'U6' of component 'COUNTER400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:393]
+INFO: [Synth 8-3491] module 'COUNTER_ADJS' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER_ADJS.vhd:34' bound to instance 'U7' of component 'COUNTER_ADJS' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:394]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_1' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:396]
+INFO: [Synth 8-638] synthesizing module 'S1_ROM_17X400' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:65]
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM1MIN/blk_mem_gen_v8_3_2/hdl/blk_mem_gen_v8_3.vhd:71' bound to instance 'U0' of component 'blk_mem_gen_v8_3_2' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:225]
+INFO: [Synth 8-256] done synthesizing module 'S1_ROM_17X400' (13#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:65]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_1' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:397]
+INFO: [Synth 8-638] synthesizing module 'MACC' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:70]
+INFO: [Synth 8-3491] module 'xbip_dsp48_macro_v3_0_12' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC_FILTER/xbip_dsp48_macro_v3_0_12/hdl/xbip_dsp48_macro_v3_0.vhd:57' bound to instance 'U0' of component 'xbip_dsp48_macro_v3_0_12' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:205]
+INFO: [Synth 8-256] done synthesizing module 'MACC' (19#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:70]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_1' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:398]
+INFO: [Synth 8-638] synthesizing module 'RAM_44X400_WF' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:68]
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM1MIN/blk_mem_gen_v8_3_2/hdl/blk_mem_gen_v8_3.vhd:71' bound to instance 'U0' of component 'blk_mem_gen_v8_3_2' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:231]
+INFO: [Synth 8-256] done synthesizing module 'RAM_44X400_WF' (20#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:68]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_1' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:399]
+INFO: [Synth 8-638] synthesizing module 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:43]
+INFO: [Synth 8-3491] module 'MULT_44X16' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MULT_44X16/synth/MULT_44X16.vhd:59' bound to instance 'U1' of component 'MULT_44X16' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'MULT_44X16' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MULT_44X16/synth/MULT_44X16.vhd:67]
+WARNING: [Synth 8-5640] Port 'zero_detect' is missing in component declaration [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MULT_44X16/synth/MULT_44X16.vhd:70]
+WARNING: [Synth 8-5640] Port 'pcasc' is missing in component declaration [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MULT_44X16/synth/MULT_44X16.vhd:70]
+INFO: [Synth 8-3491] module 'mult_gen_v12_0_11' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MULT_44X16/mult_gen_v12_0_11/hdl/mult_gen_v12_0.vhd:54' bound to instance 'U0' of component 'mult_gen_v12_0_11' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MULT_44X16/synth/MULT_44X16.vhd:113]
+INFO: [Synth 8-256] done synthesizing module 'MULT_44X16' (28#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MULT_44X16/synth/MULT_44X16.vhd:67]
+INFO: [Synth 8-4471] merging register 'preoutput_reg[47:0]' into 'p_reg[47:0]' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'MULT' (29#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:43]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_2' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:401]
+INFO: [Synth 8-638] synthesizing module 'S2_ROM_17X400' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:65]
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_3_2' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM1MIN/blk_mem_gen_v8_3_2/hdl/blk_mem_gen_v8_3.vhd:71' bound to instance 'U0' of component 'blk_mem_gen_v8_3_2' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:225]
+INFO: [Synth 8-256] done synthesizing module 'S2_ROM_17X400' (30#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:65]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_2' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:402]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_2' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:403]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_2' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:404]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_3' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:406]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_3' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:407]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_3' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:408]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_3' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:409]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_4' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:411]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_4' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:412]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_4' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:413]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_4' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:414]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_5' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:416]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_5' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:417]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_5' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:418]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_5' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:419]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_6' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:421]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_6' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:422]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_6' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:423]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_6' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:424]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_7' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:426]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_7' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:427]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_7' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:428]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_7' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:429]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_8' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:431]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_8' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:432]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_8' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:433]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_8' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:434]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_9' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:436]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_9' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:437]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_9' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:438]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_9' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:439]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_10' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:441]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_10' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:442]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_10' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:443]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_10' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:444]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_11' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:446]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_11' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:447]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_11' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:448]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_11' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:449]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_12' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:451]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_12' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:452]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_12' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:453]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_12' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:454]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_13' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:456]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_13' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:457]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_13' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:458]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_13' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:459]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_14' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:461]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_14' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:462]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_14' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:463]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_14' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:464]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_15' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:466]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_15' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:467]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_15' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:468]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_15' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:469]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_16' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:471]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_16' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:472]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_16' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:473]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_16' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:474]
+INFO: [Synth 8-3491] module 'S2_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S2_ROM_17X400/synth/S2_ROM_17X400.vhd:56' bound to instance 'U8_17' of component 'S2_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:476]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_17' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:477]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_17' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:478]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_17' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:479]
+INFO: [Synth 8-3491] module 'S1_ROM_17X400' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/S1_ROM_17X400/synth/S1_ROM_17X400.vhd:56' bound to instance 'U8_18' of component 'S1_ROM_17X400' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:481]
+INFO: [Synth 8-3491] module 'MACC' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC/synth/MACC.vhd:59' bound to instance 'U9_18' of component 'MACC' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:482]
+INFO: [Synth 8-3491] module 'RAM_44X400_WF' declared at 'c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_44X400_WF/synth/RAM_44X400_WF.vhd:56' bound to instance 'U10_18' of component 'RAM_44X400_WF' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:483]
+INFO: [Synth 8-3491] module 'MULT' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MULT.vhd:34' bound to instance 'U11_18' of component 'MULT' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:484]
+INFO: [Synth 8-3491] module 'ADDERX18' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:32' bound to instance 'U12' of component 'ADDERX18' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:486]
+INFO: [Synth 8-638] synthesizing module 'ADDERX18' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:57]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U1' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'ADDERX1' (31#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:39]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U2' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:86]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U3' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:87]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U4' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:88]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U5' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:89]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U6' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:90]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U7' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:91]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U8' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:92]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U9' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:93]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U10' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:95]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U11' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:96]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U12' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:97]
+INFO: [Synth 8-3491] module 'ADDERX1' declared at 'C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX1.vhd:33' bound to instance 'U13' of component 'ADDERX1' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:98]
+INFO: [Common 17-14] Message 'Synth 8-3491' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'ADDERX18' (32#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/ADDERX18.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'DIV48BITS' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/DIV48BITS.vhd:34]
+INFO: [Synth 8-256] done synthesizing module 'DIV48BITS' (33#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/DIV48BITS.vhd:34]
+INFO: [Synth 8-638] synthesizing module 'RAM_25X400_DP' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_25X400_DP/synth/RAM_25X400_DP.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'RAM_25X400_DP' (34#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM_25X400_DP/synth/RAM_25X400_DP.vhd:74]
+INFO: [Synth 8-638] synthesizing module 'ADD_SUB' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/ADD_SUB/synth/ADD_SUB.vhd:71]
+INFO: [Synth 8-256] done synthesizing module 'ADD_SUB' (40#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/ADD_SUB/synth/ADD_SUB.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'MACC_FILTER' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC_FILTER/synth/MACC_FILTER.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'MACC_FILTER' (41#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/MACC_FILTER/synth/MACC_FILTER.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'MUX2X9' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MUX2X9.vhd:39]
+INFO: [Synth 8-226] default block is never used [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MUX2X9.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'MUX2X9' (42#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/MUX2X9.vhd:39]
+INFO: [Synth 8-638] synthesizing module 'RAM1MIN' [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM1MIN/synth/RAM1MIN.vhd:67]
+INFO: [Synth 8-256] done synthesizing module 'RAM1MIN' (45#1) [c:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/ip/RAM1MIN/synth/RAM1MIN.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'COUNTER16BITS' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER16BITS.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'COUNTER16BITS' (46#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/COUNTER16BITS.vhd:45]
+INFO: [Synth 8-226] default block is never used [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:792]
+INFO: [Synth 8-4471] merging register 'CE_Counter2_reg' into 'CE_Counter1_reg' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:390]
+INFO: [Synth 8-4471] merging register 'CE_Counter3_reg' into 'CE_Mult_reg' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:391]
+INFO: [Synth 8-4471] merging register 'CE_Adder1_reg' into 'CE_Mult_reg' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:486]
+INFO: [Synth 8-4471] merging register 'CE_Addsub1_reg' into 'CE_Counter4_reg' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:491]
+INFO: [Synth 8-4471] merging register 'CE_Counter6_reg' into 'CE_Counter5_reg' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:394]
+INFO: [Synth 8-4471] merging register 'WE_Ram1min_reg[0:0]' into 'CE_Ram1min_reg' [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:496]
+INFO: [Synth 8-256] done synthesizing module 'FXLMS' (47#1) [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/sources_1/new/FXLMS.vhd:41]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MUX_RST[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_LAT_RST
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_REG_RST
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MUX_REGCE[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port MEM_REGCE
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port WE
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[15]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[14]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[13]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[12]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[11]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[10]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[9]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[8]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[7]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[6]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[5]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[4]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[3]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[2]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[1]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port ADDR_IN[0]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[255]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[254]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[253]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[252]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[251]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[250]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[249]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[248]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[247]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[246]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[245]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[244]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[243]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[242]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[241]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[240]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[239]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[238]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[237]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[236]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[235]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[234]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[233]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[232]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[231]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[230]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[229]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[228]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[227]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[226]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[225]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[224]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[223]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[222]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[221]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[220]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[219]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[218]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[217]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[216]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[215]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[214]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[213]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[212]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[211]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[210]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[209]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[208]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[207]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[206]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[205]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[204]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[203]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[202]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[201]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[200]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[199]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[198]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[197]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[196]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[195]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[194]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[193]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[192]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[191]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[190]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[189]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[188]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[187]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[186]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[185]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[184]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[183]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[182]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[181]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[180]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[179]
+WARNING: [Synth 8-3331] design blk_mem_gen_mux__parameterized0 has unconnected port SBITERRIN[178]
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:09:39 ; elapsed = 00:10:13 . Memory (MB): peak = 572.309 ; gain = 365.820
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:09:40 ; elapsed = 00:10:14 . Memory (MB): peak = 572.309 ; gain = 365.820
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 1060 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc]
+WARNING: [Vivado 12-584] No ports matched 'STATE_O[0]'. [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'STATE_O[1]'. [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'STATE_O[2]'. [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'STATE_O[3]'. [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'STATE_O[4]'. [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'CLK_1KHZ'. [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'UART_TXD'. [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc:153]
+Finished Parsing XDC File [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/FXLMS_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/FXLMS_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/FXLMS_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Parsing XDC File [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V4/FxLMS_18M_V1.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 306 instances were transformed.
+  MULT_AND => LUT2: 306 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.078 . Memory (MB): peak = 804.219 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:10:27 ; elapsed = 00:11:08 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:10:27 ; elapsed = 00:11:08 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U10_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_1/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_10/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_11/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_12/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_13/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_14/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_15/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_16/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_17/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_18/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_2/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_3/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_4/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_5/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_6/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_7/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_8/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U11_9/U1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U8_9. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_1. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_10. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_11. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_12. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_13. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_14. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_15. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_16. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_17. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_18. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_2. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_3. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_4. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_5. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_6. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_7. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_8. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U9_9. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:10:27 ; elapsed = 00:11:08 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5544] ROM "counter" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:10:31 ; elapsed = 00:11:13 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'MACC:/U0/i_synth/i_synth_option.i_synth_model/i_a2' (xbip_pipe_v3_0_2_viv) to 'MACC:/U0/i_synth/i_synth_option.i_synth_model/i_has_a.i_a1'
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+Start Parallel Synthesis Optimization  : Time (s): cpu = 00:10:31 ; elapsed = 00:11:14 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+Start Cross Boundary Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary Optimization : Time (s): cpu = 00:10:33 ; elapsed = 00:11:15 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+Finished Parallel Reinference  : Time (s): cpu = 00:10:33 ; elapsed = 00:11:15 . Memory (MB): peak = 804.219 ; gain = 597.730
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[47]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[46]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[45]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[44]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[43]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[42]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[41]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[40]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[39]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[38]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[37]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[36]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[35]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[34]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[33]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[32]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[31]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[30]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[29]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[28]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[27]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[26]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[25]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[24]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[23]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[22]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[21]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[20]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[19]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[18]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U13/output_reg[17]) is unused and will be removed from module FXLMS.
+---------------------------------------------------------------------------------
+Finished Area Optimization : Time (s): cpu = 00:10:35 ; elapsed = 00:11:19 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+Finished Parallel Area Optimization  : Time (s): cpu = 00:10:35 ; elapsed = 00:11:19 . Memory (MB): peak = 804.219 ; gain = 597.730
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:10:55 ; elapsed = 00:11:40 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:10:56 ; elapsed = 00:11:41 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (CE_Counter1_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U2/tmp_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U2/counter_reg[6]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U2/counter_reg[5]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U2/counter_reg[4]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U2/counter_reg[8]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U2/counter_reg[7]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U2/top_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (CE_Mult_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U4/tmp_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U4/counter_reg[6]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U4/counter_reg[5]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U4/counter_reg[4]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U4/counter_reg[8]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U4/counter_reg[7]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U4/top_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (CE_Counter5_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U7/tmp_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U7/counter_reg[6]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U7/counter_reg[5]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U7/counter_reg[4]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U7/counter_reg[8]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U7/counter_reg[7]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (State_reg[4]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (State_reg[3]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (State_reg[2]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (State_reg[1]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (State_reg[0]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (count_pipeline_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (flag_1khz_read_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (WE_Ram1_reg[0]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (CE_Counter4_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (CE_Rom_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (CE_Macc_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (WE_Ram2_reg[0]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (CE_Div_reg) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (WE_Ram3_PB_reg[0]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[47]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[46]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[45]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[44]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[43]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[42]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[41]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[40]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[39]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[38]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[37]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[36]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[35]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[34]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[33]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[32]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[31]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[30]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[29]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[28]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[27]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[26]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[25]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[24]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[23]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[22]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[21]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[20]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[19]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[18]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[17]) is unused and will be removed from module FXLMS.
+WARNING: [Synth 8-3332] Sequential element (U11_16/p_reg[16]) is unused and will be removed from module FXLMS.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:10:58 ; elapsed = 00:11:45 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+Finished Parallel Technology Mapping Optimization  : Time (s): cpu = 00:10:58 ; elapsed = 00:11:45 . Memory (MB): peak = 804.219 ; gain = 597.730
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+Finished Parallel Synthesis Optimization  : Time (s): cpu = 00:10:58 ; elapsed = 00:11:45 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:11:00 ; elapsed = 00:11:46 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:11:00 ; elapsed = 00:11:46 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:11:01 ; elapsed = 00:11:47 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:11:01 ; elapsed = 00:11:47 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:11:01 ; elapsed = 00:11:47 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:11:01 ; elapsed = 00:11:47 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFG       |     2|
+|2     |CARRY4     |    16|
+|3     |DSP48E1    |    19|
+|4     |DSP48E1_1  |    18|
+|5     |DSP48E1_2  |    18|
+|6     |DSP48E1_3  |     1|
+|7     |LUT1       |    52|
+|8     |LUT2       |    57|
+|9     |LUT3       |    86|
+|10    |LUT4       |   288|
+|11    |LUT5       |    27|
+|12    |LUT6       |    53|
+|13    |MULT_AND   |   306|
+|14    |MUXCY      |   306|
+|15    |MUXF7      |    18|
+|16    |MUXF8      |     9|
+|17    |RAMB18E1   |     1|
+|18    |RAMB18E1_1 |     9|
+|19    |RAMB18E1_2 |     9|
+|20    |RAMB36E1   |    19|
+|21    |RAMB36E1_1 |    16|
+|22    |RAMB36E1_2 |     7|
+|23    |RAMB36E1_3 |     7|
+|24    |XORCY      |   324|
+|25    |FDCE       |    43|
+|26    |FDPE       |     1|
+|27    |FDRE       |  1957|
+|28    |FDSE       |     6|
+|29    |IBUF       |     3|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:11:01 ; elapsed = 00:11:47 . Memory (MB): peak = 804.219 ; gain = 597.730
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 2329 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:38 ; elapsed = 00:10:23 . Memory (MB): peak = 804.219 ; gain = 340.469
+Synthesis Optimization Complete : Time (s): cpu = 00:11:01 ; elapsed = 00:11:48 . Memory (MB): peak = 804.219 ; gain = 597.730
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 1079 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 2 inverter(s) to 1944 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 414 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 108 instances
+  MULT_AND => LUT2: 306 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+166 Infos, 210 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:11:02 ; elapsed = 00:11:45 . Memory (MB): peak = 804.219 ; gain = 572.379
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 804.219 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Nov 09 22:26:10 2016...

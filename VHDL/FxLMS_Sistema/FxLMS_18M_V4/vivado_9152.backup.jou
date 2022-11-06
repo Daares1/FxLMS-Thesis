@@ -1,0 +1,37 @@
+#-----------------------------------------------------------
+# Vivado v2016.1 (64-bit)
+# SW Build 1538259 on Fri Apr  8 15:45:27 MDT 2016
+# IP Build 1537824 on Fri Apr  8 04:28:57 MDT 2016
+# Start of session at: Mon Nov 07 13:50:06 2016
+# Process ID: 9152
+# Current directory: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9088 C:\Users\david.DESKTOP-GFO7C5Q\Documents\FxLMS_18M_V2\FxLMS_18M_V1.xpr
+# Log file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/vivado.log
+# Journal file: C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.xpr
+update_compile_order -fileset sources_1
+open_project {C:/Users/david.DESKTOP-GFO7C5Q/Dropbox/TestBed David Arevalo/Campo Sonoro/FXLMS/VHDL/Pruebas FPGA/TEST_NEXYS/FxLMS_V4/FxLMS_V4.xpr}
+update_compile_order -fileset sources_1
+current_project FxLMS_18M_V1
+update_compile_order -fileset sources_1
+file mkdir C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1
+file mkdir C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new
+close [ open C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc w ]
+add_files -fileset constrs_1 C:/Users/david.DESKTOP-GFO7C5Q/Documents/FxLMS_18M_V2/FxLMS_18M_V1.srcs/constrs_1/new/NexysVideo.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+wait_on_run synth_1
+current_project FxLMS_V4
+close_project
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1

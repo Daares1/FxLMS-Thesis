@@ -1,0 +1,11 @@
+En la carpeta:
+*FxLMS_Sistema se presenta el código hardware del sistema implementado
+ por lo tanto está listo para conectarles entradas y la salida, por lo
+tanto este código no tiene archivo de implementación en FPGA sino que 
+es para usarse cuando se requiera implementar el FxLMS con micrófonos
+y una salida.
+
+*FxLMS_Test contiene el código hardware del sistema implementado
+junto con datos de entrada alamacenados en memoria ROM para poder 
+realizar un ejecución que mediante puerto serial se lean los 
+datos de salida
